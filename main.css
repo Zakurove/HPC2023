@@ -1,13 +1,21 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 
 body {
     height: 500%;
     font-family: 'Tajawal', sans-serif !important;
-    background-color: green; 
+    background-color: green;
   }
 
 .container {
   max-width: 960px;
+}
+
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
 }
 
 /*
